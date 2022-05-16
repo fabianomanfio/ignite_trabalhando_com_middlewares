@@ -9,7 +9,7 @@ let response;
 let request;
 let mockNext;
 
-describe('checksCreateTodosUserAvailability', () => {
+describe.only('checksCreateTodosUserAvailability', () => {
   beforeEach(() => {
     users.splice(0, users.length);
 
